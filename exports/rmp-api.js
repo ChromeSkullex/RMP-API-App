@@ -1,4 +1,4 @@
-const ratings = require('@mtucourses/rate-my-professors').default;
+const ratings = require('@chromeskullex/rate-my-professors').default;
 
 var runAPI = async function(res, req, findTeach){
     try {
