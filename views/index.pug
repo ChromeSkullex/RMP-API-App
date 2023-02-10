@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form(action='/submit', method='post')
+    input(type=text, name='teacherSearch')
+    button(type='submit') Submit
+
+
+  ul Teacher List
+    li Name: #{name}
+    li Rate: #{rating}
+  ul
+    each item in review
+      li= item
