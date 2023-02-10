@@ -1,5 +1,5 @@
 # RMP-API-App
-Searches for Professor @UMBC using @mtucourses rmp-api
+Searches for Professor @UMBC using an edited version of @mtucourses rmp-api
 
 To start the server: `npm start`
 
