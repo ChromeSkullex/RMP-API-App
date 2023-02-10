@@ -13,5 +13,6 @@ Dependencies:
 - pug
 - nodemon
 
-API: [`@mtucourses/rate-my-professors URL`](https://www.npmjs.com/package/@mtucourses/rate-my-professors)
+API: [@mtucourses/rate-my-professors URL](https://www.npmjs.com/package/@mtucourses/rate-my-professors)
+
 To Install `npm i @mtucourses/rate-my-professors`
