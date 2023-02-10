@@ -8,7 +8,7 @@ router.post('/submit', async function (req, res) {
   const findTeach = req.body.teacherSearch;
   const rate = await runAPI(res, req, findTeach);
   console.log(rate.review)
-  res.render('index', { title: 'Searched', name: rate.name, rating: rate.rating, review: rate.review });
+  res.render('search', { title: 'Searched', name: rate.name, rating: rate.rating, review: rate.review });
 
 })
 
